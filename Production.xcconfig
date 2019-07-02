@@ -1,0 +1,10 @@
+//
+//  Production.xcconfig
+//  Countries
+//
+//  Created by Pooja Bohora on 28/06/19.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+serverURL = https:/$()/restcountries.eu/

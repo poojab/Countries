@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.8.1)
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
+  - ReachabilitySwift (4.3.0)
+  - SDWebImage/Core (5.0.0-beta6)
+  - SDWebImageSVGCoder (0.1.0):
+    - SDWebImage/Core (>= 5.0.0-beta3)
+    - SVGKit (>= 2.1)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ReachabilitySwift
+  - SDWebImageSVGCoder
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `3.x`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CocoaLumberjack
+    - ReachabilitySwift
+    - SDWebImage
+    - SDWebImageSVGCoder
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 3.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: fc33a18a6d43042c2d389d4ab4a575e9c41a5bcf
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SDWebImage: 2840a50a41156efccf460df67218b32029177897
+  SDWebImageSVGCoder: 4a76d483b2f8b416b6888c33422f581d1c90e340
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
+
+PODFILE CHECKSUM: 245529f37dec4ba3e2a1f68d51ba4d8adc9dfba4
+
+COCOAPODS: 1.5.3
